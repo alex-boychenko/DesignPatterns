@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "Creational
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Structural\Adapter\Adapter.csproj", "{992CD73D-97B2-4F70-8D07-E244ABFA694C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Structural\Facade\Facade.csproj", "{EF8EBD0F-C681-4C5C-89F1-48166F200836}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{992CD73D-97B2-4F70-8D07-E244ABFA694C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{992CD73D-97B2-4F70-8D07-E244ABFA694C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{992CD73D-97B2-4F70-8D07-E244ABFA694C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8EBD0F-C681-4C5C-89F1-48166F200836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8EBD0F-C681-4C5C-89F1-48166F200836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8EBD0F-C681-4C5C-89F1-48166F200836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8EBD0F-C681-4C5C-89F1-48166F200836}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{00509C61-1762-4D21-B2C5-87AE504AD3C4} = {AFE41F20-49C0-4F17-8C70-11484832657B}
 		{5577A336-E0A6-4CD7-99BD-F551D4EECA71} = {8E22167C-A0F7-4D80-9967-80EFED04B956}
 		{992CD73D-97B2-4F70-8D07-E244ABFA694C} = {622068DE-FFF8-45B6-AEE9-2C321A00CC4A}
+		{EF8EBD0F-C681-4C5C-89F1-48166F200836} = {622068DE-FFF8-45B6-AEE9-2C321A00CC4A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D3B89396-6E9F-4929-B9D2-A7242F3B569D}
