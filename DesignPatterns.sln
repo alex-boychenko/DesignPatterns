@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Structural\Fly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Behavioral\Strategy\Strategy.csproj", "{DC6C2418-675A-4DDF-846B-93948B61AECE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Behavioral\Observer\Observer.csproj", "{234D5E6F-C161-4EAA-BF5C-DED406E21213}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{DC6C2418-675A-4DDF-846B-93948B61AECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC6C2418-675A-4DDF-846B-93948B61AECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC6C2418-675A-4DDF-846B-93948B61AECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{234D5E6F-C161-4EAA-BF5C-DED406E21213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{234D5E6F-C161-4EAA-BF5C-DED406E21213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{234D5E6F-C161-4EAA-BF5C-DED406E21213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{234D5E6F-C161-4EAA-BF5C-DED406E21213}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +103,7 @@ Global
 		{EF20CC97-6735-4E63-94CF-040219FBBBD7} = {622068DE-FFF8-45B6-AEE9-2C321A00CC4A}
 		{8AC7F671-A3ED-44BB-BBA0-2672EB78E192} = {622068DE-FFF8-45B6-AEE9-2C321A00CC4A}
 		{DC6C2418-675A-4DDF-846B-93948B61AECE} = {AFE41F20-49C0-4F17-8C70-11484832657B}
+		{234D5E6F-C161-4EAA-BF5C-DED406E21213} = {AFE41F20-49C0-4F17-8C70-11484832657B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D3B89396-6E9F-4929-B9D2-A7242F3B569D}
