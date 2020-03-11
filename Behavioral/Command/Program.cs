@@ -6,7 +6,13 @@ namespace Command
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var customerService = new CustomerService();
+            var command = new AddCustomerCommand(customerService);
+            var button = new Button(command);
+
+            button.Click();
+
+            Console.ReadKey();
         }
     }
 }
