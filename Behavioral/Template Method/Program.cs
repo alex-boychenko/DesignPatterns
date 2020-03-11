@@ -9,10 +9,10 @@ namespace Template_Method
             var auditTrail = new AuditTrail();
 
             var transferMoneyTask = new TransferMoneyTask();
-            transferMoneyTask.Excecute(auditTrail);
+            transferMoneyTask.Execute(auditTrail);
 
             var generateReportTask = new GenerateReportTask();
-            generateReportTask.Excecute(auditTrail);
+            generateReportTask.Execute(auditTrail);
 
             Console.ReadKey();
         }

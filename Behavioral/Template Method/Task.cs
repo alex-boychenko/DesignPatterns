@@ -6,7 +6,7 @@ namespace Template_Method
 {
     public abstract class Task
     {
-        public void Excecute(IAuditTrail auditTrail)
+        public void Execute(IAuditTrail auditTrail)
         {
             auditTrail.Record();
             Operation();
